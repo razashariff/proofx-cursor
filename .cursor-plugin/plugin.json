@@ -1,0 +1,23 @@
+{
+  "name": "proofx",
+  "version": "1.0.0",
+  "description": "Protect and verify digital content with cryptographic proof of ownership. Hash, sign, and timestamp any file directly from Cursor.",
+  "author": {
+    "name": "ProofX",
+    "email": "contact@proofx.co.uk"
+  },
+  "keywords": [
+    "content-protection",
+    "watermark",
+    "digital-signature",
+    "timestamp",
+    "verification",
+    "intellectual-property",
+    "creator-tools",
+    "security"
+  ],
+  "logo": "assets/logo.svg",
+  "homepage": "https://proofx.co.uk",
+  "repository": "https://github.com/razashariff/proofx-cursor",
+  "license": "MIT"
+}

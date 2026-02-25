@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="96" fill="#0a0e17"/>
+  <rect x="8" y="8" width="496" height="496" rx="88" stroke="#d4af37" stroke-width="4" fill="none"/>
+  <g transform="translate(256,256)">
+    <!-- Shield -->
+    <path d="M0-140 L120-80 L120 60 Q120 140 0 180 Q-120 140 -120 60 L-120-80 Z" fill="none" stroke="#d4af37" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M0-110 L96-60 L96 48 Q96 112 0 148 Q-96 112 -96 48 L-96-60 Z" fill="#d4af37" fill-opacity="0.15"/>
+    <!-- Checkmark -->
+    <path d="M-48 20 L-12 56 L56-32" stroke="#d4af37" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <!-- Text -->
+  <text x="256" y="420" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="56" font-weight="700" fill="#d4af37">ProofX</text>
+</svg>

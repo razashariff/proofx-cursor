@@ -1,0 +1,30 @@
+---
+description: Best practices for content protection with ProofX
+alwaysApply: false
+globs: "**/*.{ts,tsx,js,jsx,py,swift,go,rs}"
+---
+
+# ProofX Content Protection Guidelines
+
+When working with digital content (images, audio, video, documents) in this project:
+
+## Asset Protection
+- Before deploying, ensure all public-facing assets are protected with ProofX
+- Use the `protect-asset` skill to hash and sign important files
+- Never commit unprotected original content to public repositories
+
+## API Integration
+- Use the ProofX API base URL: `https://api.proofx.co.uk`
+- The primary protection endpoint is `POST /api/content/sign-hash`
+- Required fields: `creator_id`, `content_hash`, `content_type`, `file_name`
+- Content hash must be SHA-256 of the raw file bytes
+- API keys use the format `pk_live_` followed by 32 hex characters
+
+## Verification
+- Every protected piece of content gets a unique `content_id`
+- Verify at: `https://proofx.co.uk/verify?id={content_id}`
+- Verification checks cryptographic signature, timestamp, and creator identity
+
+## Privacy
+- Hashing should be done client-side when possible — never upload raw content unnecessarily
+- ProofX signs hashes, not files — the content itself stays with the creator
