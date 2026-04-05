@@ -75,4 +75,4 @@ For developers building with ProofX:
 
 ## License
 
-MIT
+BSL 1.1
